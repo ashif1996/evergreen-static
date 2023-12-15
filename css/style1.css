@@ -1,0 +1,61 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.container {
+	width: 300px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+.box {
+	margin-bottom: 15px;
+}
+
+.fontLabel {
+	font-weight: bold;
+	color: #333;
+}
+
+.iconBox {
+	font-size: 20px;
+	color: #666;
+	margin-right: 10px;
+}
+
+.textBox {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+}
+
+.clr {
+	clear: both;
+}
+
+.terms {
+	font-size: 14px;
+	color: #666;
+}
+
+.submit {
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	background-color: #2d3e3f;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.submit:hover {
+	background-color: #1d2e2f;
+}

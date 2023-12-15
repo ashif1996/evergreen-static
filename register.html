@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="images/logo1.png" type="image/x-icon">
+    <title>Registration | EverGreen</title>
+</head>
+<body>
+    <div id="navbar-container"></div>
+        <div class="container mt-5 mb-5 pt-5 pb-5" style="background-color: #F5F5F5;">
+            <form id="registerform" action="#" method="post">
+                <div class="mb-3 row">
+                    <label for="firstname" class="col-sm-2 col-form-label">First Name:</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <input type="text" id="firstname" name="firstName" placeholder="First Name" class="form-control" autofocus="on" required>
+                        </div>
+                        <div id="firstNameError" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="secondName" class="col-sm-2 col-form-label">Second Name:</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <input type="text" id="secondname" name="secondName" placeholder="Last Name" class="form-control" required>
+                        </div>
+                        <div id="secondNameError" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="userName" class="col-sm-2 col-form-label">User Name:</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <input type="text" id="username" name="userName" placeholder="User Name" class="form-control" required>
+                        </div>
+                        <div id="userNameError" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="email" class="col-sm-2 col-form-label">Email ID:</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <input type="email" name="email" id="registerEmail" placeholder="Email Id" class="form-control" required>
+                        </div>
+                        <div id="emailError" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="password" class="col-sm-2 col-form-label">Password:</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
+                            <input type="password" name="password" id="password" placeholder="Password" class="form-control" required>
+                        </div>
+                        <div id="passwordError" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="repassword" class="col-sm-2 col-form-label">Re-enter Password:</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
+                            <input type="password" name="repassword" id="repassword" placeholder="Re-enter Password" class="form-control" required>
+                        </div>
+                        <div id="repasswordError" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="mb-3 form-check">
+                    <input id="termsCheckbox" type="checkbox" class="form-check-input" name="Terms" required>
+                    <label class="form-check-label">I accept the terms and conditions</label>
+                </div>
+                <div id="termsError" class="text-danger"></div>
+                <div class="mb-3">
+                    <button type="submit" name="Submit" class="btn btn-primary">SUBMIT</button>
+                </div>
+                <div class="d-none" id="submitRegisterSuccessMessage">
+                    <div class="text-center mb-3 mt-2">
+                        <div class="fw-bolder">You have registered successfully.</div>
+                    </div>
+                </div>
+                <div class="d-none" id="submitRegisterErrorMessage">
+                    <div class="text-center text-danger mb-3 mt-2">Error occurred during registration.</div>
+                </div>
+            </form>
+        </div>
+    <div id="footer-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

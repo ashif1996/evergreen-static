@@ -73,7 +73,6 @@ function validateLoginForm() {
     function showLoginSuccessMessage() {
         showMessage('successMessage', 'errorMessage', 'loginErrorMessage');
     }
-    }
 }
 
 function validateContactForm() {
